@@ -1,0 +1,45 @@
+NAME
+       _printf - format and print data
+
+SYNOPSIS
+       _printf FORMAT [ARGUMENT]...
+       _printf OPTION
+
+DESCRIPTION
+       Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       FORMAT controls the output as in C printf.  Interpreted sequences are:
+
+       %d     returns numbers either positive or negative
+
+       %i     returns unsigned numbers
+
+       %u     
+
+       %o     returns in octaldecimal
+
+       %x     returns the hexadecimal digits in lowercaps
+
+       %X     returns the hexadecimal digits in highercaps
+
+       %c     returns a character
+
+       %s     return a string
+
+       %p     returns a pointer
+
+       %%     a single %
+
+       
+
+       NOTE:  your shell may have its own version of printf, which usually su‐
+       persedes the version described here.  Please refer to your shell's doc‐
+       umentation for details about the options it supports.
+
+AUTHOR
+       Written by Niyi and Dilibe
